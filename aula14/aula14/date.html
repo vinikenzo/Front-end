@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        /* const dia = d.getDate();
+        const mes = d.getMonth();
+        const ano = d.getFullYear();
+        
+        const data = d.toLocaleDateString(); */
+
+        function hora (){
+            const d = new Date();
+            const hora = d.toLocaleTimeString();
+            const h = document.getElementById('hora').innerHTML = hora;
+        }
+        setInterval(h, 1000);
+
+       /*  document.write(dia + "/" + mes + "/" + ano);
+        document.write("<br>");
+        //document.write("Hora local: " + hora);
+        document.write("<br>");
+        document.write("Data local: " + data); */
+
+    </script>
+
+    <div id="h"></div>
+</body>
+</html>
