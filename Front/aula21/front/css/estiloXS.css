@@ -1,0 +1,19 @@
+/* eXtra Small devices (phones, 600px and down) */
+
+@media  (max-width: 600px) {
+   body{
+    background-color: aqua;
+   }
+   .xs{
+    display:block;
+   }
+   .sm, .md, .lg, .xl{
+    display: none;
+   }
+
+   .exemplo{
+        width: 50%;
+        height: 60px;
+        background-color: bisque;
+   }
+}

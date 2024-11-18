@@ -1,0 +1,18 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body{
+        background-color: blue;
+    }
+
+    .xl{
+        display:block;
+    }
+    .sm, .md, .lg, .xs{
+    display: none;
+    }
+    .exemplo{
+        width: 10%;
+        height: 60px;
+        background-color: bisque;
+   }
+}
